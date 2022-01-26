@@ -39,7 +39,7 @@ You've successfully started an AAOS Emulator Web Service! Use the following to a
 
 ```https://<VM_External__IP>```
 
-#Troubleshooting
+# Troubleshooting
 
 If a connection error to the VM external IP occurs, make sure the VM is set up to allow both HTTP and HTTPS traffic. To validate this, see Running a basic Apache web server.
 Set up the turn server
@@ -92,3 +92,8 @@ Restart the AAOS Emulator service with the turn configuration. Be sure to replac
 export SNIPPET="{\"iceServers\":[{\"urls\":\"turn:35.193.52.134:3478\",\"username\":\"test\",\"credential\":\"test123\"}]}"
 docker-compose -f js/docker/docker-compose-build.yaml up
 ```
+
+
+## [ AAOS Emulator Detailed documentation](https://source.android.com/devices/automotive/start/avd/cloud_emulator)
+
+

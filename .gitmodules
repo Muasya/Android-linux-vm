@@ -1,0 +1,3 @@
+[submodule "docker-android"]
+	path = docker-android
+	url = git@github.com:budtmo/docker-android.git

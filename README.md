@@ -97,3 +97,7 @@ docker-compose -f js/docker/docker-compose-build.yaml up
 ## [ AAOS Emulator Detailed documentation](https://source.android.com/devices/automotive/start/avd/cloud_emulator)
 
 
+# The docker Android submodule
+This module contains the Docker image for the Android Emulator. which can be run on a Linux machine then accessed via the web browser.
+
+
